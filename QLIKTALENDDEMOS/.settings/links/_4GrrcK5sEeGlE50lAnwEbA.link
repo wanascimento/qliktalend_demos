@@ -1,0 +1,14 @@
+{
+  "itemId" : "_4GrrcK5sEeGlE50lAnwEbA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_BdrJjxL3Ee2iXYINqGY_kQ",
+      "name" : "hbase_host"
+    }, {
+      "id" : "_BdrJkBL3Ee2iXYINqGY_kQ",
+      "name" : "hbase_port"
+    } ]
+  } ]
+}

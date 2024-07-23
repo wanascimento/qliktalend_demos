@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection CsvOption="true" Encoding="US-ASCII" EscapeChar="&quot;\&quot;&quot;" EscapeType="CSV" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="C:/Talend/BigData/US_GOV_SPENDING_FULL.csv" FirstLineCaption="true" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" TextEnclosure="&quot;\&quot;&quot;" UseHeader="true" dataPackage="_YUcioQn7EeOQK83yILnZAA" name="US_GOV_Contracts" xmi:id="_YUcioAn7EeOQK83yILnZAA"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_YUcioAn7EeOQK83yILnZAA" name="default" xmi:id="_YUcioQn7EeOQK83yILnZAA">
+    <ownedElement id="_VFnroAn6EeOQK83yILnZAA" label="metadata" name="metadata" xmi:id="_YUciogn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="UniqueTransactionID" length="100" name="UniqueTransactionID" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUciown7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TransactionStatus" length="50" name="TransactionStatus" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUcipAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AwardType" length="100" name="AwardType" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUcipQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ContractPricing" length="100" name="ContractPricing" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUcipgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ContractingAgency" length="100" name="ContractingAgency" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUcipwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DUNSNumber" length="50" name="DUNSNumber" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUciqAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DateSigned" length="50" name="DateSigned" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUciqQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ReasonForModification" length="200" name="ReasonForModification" originalLength="200" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUciqgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ContractDescription" length="255" name="ContractDescription" originalLength="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUciqwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DollarsObligated" length="20" name="DollarsObligated" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Double" xmi:id="_YUcirAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ExtentCompeted" length="100" name="ExtentCompeted" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUcirQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FiscalYear" length="4" name="FiscalYear" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJsAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TransactionNumber" length="10" name="TransactionNumber" originalLength="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJsQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AgencyID" length="100" name="AgencyID" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJsgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FundingAgency" length="100" name="FundingAgency" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJswn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IDVAgency" length="100" name="IDVAgency" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJtAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IDVProcurementInstrumentID" length="50" name="IDVProcurementInstrumentID" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJtQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ContractingAgencyCode" length="100" name="ContractingAgencyCode" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJtgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MajorAgency" length="100" name="MajorAgency" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJtwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MajorFundingAgency" length="100" name="MajorFundingAgency" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJuAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ModificationNumber" length="50" name="ModificationNumber" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJuQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PSCCategoryCode" length="2" name="PSCCategoryCode" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJugn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ParentDUNSNumber" length="100" name="ParentDUNSNumber" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJuwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ParentRecipientOrCompanyName" length="100" name="ParentRecipientOrCompanyName" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJvAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PlaceofPerformanceCongDistrict" length="50" name="PlaceofPerformanceCongDistrict" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJvQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PlaceofPerformanceCity" length="100" name="PlaceofPerformanceCity" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJvgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PlaceofPerformanceState" length="100" name="PlaceofPerformanceState" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJvwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PlaceofPerformanceZipCode" length="50" name="PlaceofPerformanceZipCode" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJwAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PrincipalNAICSCode" length="50" name="PrincipalNAICSCode" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJwQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProcurementInstrumentID" length="50" name="ProcurementInstrumentID" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJwgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PrincipalPlaceCountyOrCity" length="100" name="PrincipalPlaceCountyOrCity" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJwwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProductorServiceCode" length="255" name="ProductorServiceCode" originalLength="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJxAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProgramSource" length="100" name="ProgramSource" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJxQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProgramSourceAccountCode" length="50" name="ProgramSourceAccountCode" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJxgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProgramSourceAgencyCode" length="50" name="ProgramSourceAgencyCode" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJxwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ProgramSourceDescription" length="255" name="ProgramSourceDescription" originalLength="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJyAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientAddressLine123" length="50" name="RecipientAddressLine123" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJyQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientCity" length="100" name="RecipientCity" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJygn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientCountyName" length="255" name="RecipientCountyName" originalLength="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJywn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientName" length="100" name="RecipientName" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJzAn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientOrContractorName" length="100" name="RecipientOrContractorName" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJzQn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientState" length="50" name="RecipientState" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJzgn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RecipientZipCode" length="50" name="RecipientZipCode" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJzwn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TypeofSpending" length="50" name="TypeofSpending" originalLength="50" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJ0An7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TypeofTransaction" length="100" name="TypeofTransaction" originalLength="100" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJ0Qn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VendorName" length="255" name="VendorName" originalLength="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_YUdJ0gn7EeOQK83yILnZAA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2bc14e18-6f43-4f44-b2de-000a4e043282"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GbwW7ozYLYW2AMtnkato2g2auTY13AT1MjJCnzEGT+axCeTPOH49/3yIm1QmITUkUKEsuesCumlz&#13;
+KOzXo3ULcA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a03de8b5-a34e-49d9-9934-9fd5dbfc5d04"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wO3Z8Ec03AxUed3s2M//aR1qvPEEOeBhANRBopP+onWlYNFVyGvE23jNsHSuP0nc5wg3StMhTo9U&#13;
+sa1ixlkaYw==</DigestValue></Reference></SignedInfo><SignatureValue>WRbWWqZjMyAtKr99nRup5YR+DAZQL/6EV9Edo+bPu+kzwnv2Uf8qu5k5/Nyju32r3AIDsIilIfqa&#13;
+YDwbvgn1HyRk901RPVgyQCB6ujP1B1GOQkOB3fwMJaa2UOg1Ho3FS+mKegRNOCGhNC9OGqOXpe/k&#13;
+xyu6tnXUbEBHWglX+rAYlwt6/GlJpa0BCRB60RJL9Z6dXOhEBW4Ocu3wEP0FxvU7bm/tjz9tcC+I&#13;
+2onlbeqWs2gaAh72z9oEm4W+8DqdEHbjuvvosnJ2AueO+Rg2d2ETpqcQB7cOe1se8ccB2Z2/drz0&#13;
+xunfEtqijUdvPN1Gq68RZK9j0zbvIaERHcfnXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a03de8b5-a34e-49d9-9934-9fd5dbfc5d04" Target="#_2bc14e18-6f43-4f44-b2de-000a4e043282"><Timestamp>2024-07-23 19:03:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

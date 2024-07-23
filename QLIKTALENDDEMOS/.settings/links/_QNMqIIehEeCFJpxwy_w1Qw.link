@@ -1,0 +1,11 @@
+{
+  "itemId" : "_QNMqIIehEeCFJpxwy_w1Qw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1HUKYIbOEeCBdve_fObWGQ",
+    "parameterList" : [ {
+      "id" : "_rRys0etBEemV5p5Dpqr24g",
+      "name" : "paris_street_list"
+    } ]
+  } ]
+}

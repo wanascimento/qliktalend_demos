@@ -1,0 +1,23 @@
+{
+  "itemId" : "_8_6-kKw4EeGdy-T2skU_Bw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_BdrJgRL3Ee2iXYINqGY_kQ",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_BdrJghL3Ee2iXYINqGY_kQ",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_BdrJhBL3Ee2iXYINqGY_kQ",
+      "name" : "templeton_host"
+    }, {
+      "id" : "_BdrJhRL3Ee2iXYINqGY_kQ",
+      "name" : "templeton_port"
+    }, {
+      "id" : "_BdrJgxL3Ee2iXYINqGY_kQ",
+      "name" : "user"
+    } ]
+  } ]
+}

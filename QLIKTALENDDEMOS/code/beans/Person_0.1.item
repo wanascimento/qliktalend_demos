@@ -1,0 +1,67 @@
+package beans;
+
+public class Person {
+
+	private String firstName;
+	private String lastName;
+	private String job;
+	private int age;
+	private String nationality;
+
+	public Person() {
+	}
+	
+	public Person(String firstName, String lastName, String job, int age, String nationality) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.job = job;
+		this.age = age;
+		this.nationality = nationality;
+	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	@Override
+	public String toString() {
+		return firstName + " " + lastName + " (" + job + ")";
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getJob() {
+		return job;
+	}
+
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+}

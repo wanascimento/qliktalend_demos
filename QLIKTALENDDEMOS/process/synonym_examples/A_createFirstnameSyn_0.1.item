@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_n24OICsKEeyAK4OX2pjKWg" name="fname_index" prompt="fname_index?" promptNeeded="false" type="id_String" value="&quot;/tmp/fname_index&quot;"/>
+  </context>
+  <parameters>
+    <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="/home/scorreia/DEMOS/Talend-All-r60995-V4.2.1/workspace"/>
+    <elementParameter field="DIRECTORY" name="PRODUCT_ROOT_DIR" value="/home/scorreia/DEMOS/Talend-All-r60995-V4.2.1"/>
+    <elementParameter field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="/home/scorreia/DEMOS/Talend-All-r60995-V4.2.1/workspace/test"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="AUTHOR" value="s@t.c"/>
+    <elementParameter field="TEXT" name="STATUS" value=""/>
+    <elementParameter field="TEXT" name="NAME" value="createFirstnameSyn"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.1"/>
+    <elementParameter field="TEXT" name="PURPOSE" value=""/>
+    <elementParameter field="TEXT" name="DESCRIPTION" value=""/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PASS_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/home/scorreia/DEMOS/Talend-All-r59469-V4.2.0NB/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PASS" value=""/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value=""/>
+    <routinesParameter id="_DsFtMHJcEeCMuc3ISQVatg" name="DQTechnical"/>
+    <routinesParameter id="_DrsroHJcEeCMuc3ISQVatg" name="DataOperation"/>
+    <routinesParameter id="_DsCp4HJcEeCMuc3ISQVatg" name="DataQuality"/>
+    <routinesParameter id="_Dr78MHJcEeCMuc3ISQVatg" name="DqStringHandling"/>
+    <routinesParameter id="_Dr3DsHJcEeCMuc3ISQVatg" name="Mathematical"/>
+    <routinesParameter id="_DrjhsHJcEeCMuc3ISQVatg" name="Numeric"/>
+    <routinesParameter id="_DrqPYHJcEeCMuc3ISQVatg" name="Relational"/>
+    <routinesParameter id="_DqM20HJcEeCMuc3ISQVatg" name="SQLike"/>
+    <routinesParameter id="_Drvu8HJcEeCMuc3ISQVatg" name="StringHandling"/>
+    <routinesParameter id="_DrmlAHJcEeCMuc3ISQVatg" name="TalendDataGenerator"/>
+    <routinesParameter id="_DrzZUHJcEeCMuc3ISQVatg" name="TalendDate"/>
+    <routinesParameter id="_Drbl4HJcEeCMuc3ISQVatg" name="TalendString"/>
+  </parameters>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1"/>
+    <elementParameter field="CHECK" name="START" value="true"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORIGINE"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRENOMS"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIMINUTIF"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIMINUTIF1"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DIMINUTIF2"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Column5"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Column6"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Column7"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Column8"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Column9"/>
+      <elementValue elementRef="VALUE" value=""/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="France|Anne|Ninon|Annie|Ninette|Ann||||&#10;France|Bernadette|Nad|Netty|Dadette|||||&#10;France|Albert  |Al  |||||||&#10;France|Alexandre |Alex  |||||||&#10;France|Alfred-Hubert |Alu|||||||&#10;France|André|Dédé  |||||||&#10;France|Didier |Dédé  |||||||&#10;France|Anthony |Anton|Tony|Tonio|||||&#10;France|Artus |Artie  |||||||&#10;France|Benoît |Ben  |||||||&#10;France|Catherine |Cate|Katherine |Kathryn|||||&#10;France|Charles|Charlie |Charlot|Chuck|||||&#10;France|Christophe|Christian |Chris  |Kris|Kristof||||&#10;France|Christian |Chris||||||&#10;France|Clément |Clem'  |||||||&#10;France|Danniel | Danny  |||||||&#10;France|Elisabeth|Liz|Lison||||||&#10;France|Maxime|Max|||||||&#10;France|Emile|Milo|||||||&#10;France|Gregory |Greg  |||||||&#10;France|Jean-Jacques  |JJ|||||||&#10;France|Jean-Philippe|Jipi  |Jean-Phi||||||&#10;France|Jérémie  |Jérem'  |||||||&#10;France|Jonathan|Jo|||||||&#10;France|Joel |Jo|||||||&#10;France|Joseph|Joey  |Jo|Djoï|||||&#10;France|Julien|Juju|Jul  ||||||&#10;France|Juliette|Juju|Jul  ||||||&#10;France|Marcel|Cello|||||||&#10;France|Marie-Louise|Malou|||||||&#10;France|Marie-Thérèse|Marité|||||||&#10;France|Thérèse|Tité|||||||&#10;France|Michel|Michou|||||||&#10;France|Samuel|Sam|||||||&#10;France|Kathleen | Katie |||||||&#10;France|Kevin |Kev  |||||||&#10;France|Madeleine|Mado  |||||||&#10;France|Nicolas |Nico  |Nick||||||&#10;France|Pierre |Pierrot|||||||&#10;France|Richard |Dick|||||||&#10;France|Sophie |Sof  |Sotho|Sophinia|Philie||||&#10;France|Stéphanie |Stef  |||||||&#10;France|Steven |Steve|||||||&#10;France|William|Bill|||||||&#10;France|Yannick |Yan  |||||||&#10;France|Benjamin |BenJ  |Ben||||||&#10;France|Catherine|Cath  |||||||&#10;France|Christophe |Tof  |||||||&#10;France|Clarabelle |Clara  |||||||&#10;France|Daniel|Dan  |||||||&#10;France|David| Dave |||||||&#10;France|Davy| Dave |||||||&#10;France|Deborah |Debbie |Debs  |Deb|||||&#10;France|Delphine | Delf  |||||||&#10;France|Douglas |Doug  |||||||&#10;France|Germaine|Mèmène|||||||&#10;France|Fernande|Nanande|||||||&#10;France|Edgar|Ed |Eddy  ||||||&#10;France|Edouard |Ed |Eddy  ||||||&#10;France|Emmanuel|Manu |Mano||||||&#10;France|Ernest |Ernie  |||||||&#10;France|Fabien|Fab |||||||&#10;France|Gregory|Greg |||||||&#10;France|Guillaume |Gui  |||||||&#10;France|James |Jim  |||||||&#10;France|Jean-Baptiste | JB  |Jibus|Jibe  |||||&#10;France|Jean-François |JF|||||||&#10;France|Jean-Pascal |JP  |||||||&#10;France|Jean-Paul |Paulo  |||||||&#10;France|Jennifer |Jenny  |Jen ||||||&#10;France|Julien|Dju |||||||&#10;France|Katrina |Katie  |Kate ||||||&#10;France|Samantha|Sam|||||||&#10;France|Lionel |Lio  |||||||&#10;France|Matthew |Matt  |||||||&#10;France|Mathieu|Matt  |||||||&#10;France|Mathias|Matt  |||||||&#10;France|Michaël|Mike| Micky  ||||||&#10;France|Michael |Mike  |||||||&#10;France|Mohamed |Momo|||||||&#10;France|Nathanial | Nathan|||||||&#10;France|Olivier |Oli  |Olive||||||&#10;France|Peter|Pete  |||||||&#10;France|Philippe |Phil  |||||||&#10;France|Raymond |Ray  |||||||&#10;France|Richard |Rich |Dick||||||&#10;France|Robert |Boby|Rob| Bob |||||&#10;France|Roderick|Rod  |||||||&#10;France|Ronald |Ron  |||||||&#10;France|Suzanne |Sue  |Suzi||||||&#10;France|Terrence |Terry|||||||&#10;France|Thibaud |Thib  |||||||&#10;France|Thomas|Tom|||||||&#10;France|Timothy |Tim|||||||&#10;France|Yolande |Yoly  |||||||&#10;France|François Xavier |Fx|||||||&#10;France|Kathleen |Katie|||||||&#10;France|Sébastien |Sebby|Seb ||||||&#10;France|Yannick |Yan|||||||&#10;France|Cédric |Ced  |||||||&#10;France|François|Fafa|Fanfan||||||&#10;France|Paul|Popol|||||||&#10;France|Raphaël|Raphy|||||||&#10;France|Pierre-François|Pif|Jeff||||||&#10;France|Pierre-Paul|PP|||||||&#10;France|Vanessa|Vanou|Vaness||||||&#10;France|Dominique|Domi|Dom||||||&#10;France|Valérie|Valou|Val||||||&#10;France|Isabelle|Isa|Zabou||||||&#10;France|Yoann|Yoyo|Yo||||||&#10;France|Jérôme|Gégé|||||||&#10;France|Aquineas|Aqui|||||||&#10;France|Lola|Lolita|||||||&#10;France|Barbara|Barate|||||||&#10;France|Maria|Yaya|||||||&#10;France|Diane|Dianou|||||||&#10;France|Jean-Marie|Jim  |||||||&#10;France|Marie|Mally|Mariette|Aramette|Miette||||&#10;France|Nathalie|Nath|||||||&#10;France|Eric|Rico|Ricky||||||&#10;France|Jean-Christophe|JC|||||||&#10;France|Terrence |Terry|||||||&#10;France|Gustave|Gus|||||||&#10;France|Calypso|Caly|||||||&#10;France|Antoine|Toinou|Titoine||||||&#10;France|Lucas|Luc|||||||&#10;France|Christine|Chris  |||||||&#10;France|Angéline|Angie|||||||&#10;France|Angélique|Angie|||||||&#10;France|Charlotte|Char|||||||&#10;France|Ghislaine|Ghis|||||||&#10;France|Abdelhafid |Abdel|||||||&#10;France| Abdelkhader|Abdel|||||||&#10;France|Abdelkrim|Abdel|||||||&#10;France|Kimberly|Kim|||||||&#10;France|Lutgarda|Luti|||||||&#10;France|Rosane|Rose|||||||&#10;France|Billy|Bill|||||||&#10;France|Djosef|Djo|||||||&#10;France|Dallan|Dol|||||||&#10;France|Danny|Dan  |||||||&#10;France|Maxence|Max|||||||&#10;France|Cassandre|Cassie|||||||&#10;France|Lucie|Lulu|||||||&#10;France|Lucien|Lulu|||||||&#10;France|Lucienne|Lulu|||||||&#10;France|Ludivine|Lulu|||||||&#10;France|Elisabeth|Elisa|Lise||||||&#10;France|Théodore|Théo|||||||&#10;France|Léonard|Léo|||||||&#10;France|Ségolène|Ségo|||||||&#10;France|Maurice|Momo|Moe||||||&#10;France|Marguerite|Margot|||||||&#10;France|Noureddine|Nono|||||||&#10;France|Moustapha|Mouss|||||||&#10;France|Patrick|Pat|||||||&#10;France|Patricia|Patou|||||||&#10;France|Monique|Momo|||||||&#10;France|Hervé|Véver|||||||&#10;France|Myriam|Mimi|||||||&#10;France|Stanislas|Stan|||||||&#10;France|Caroline|Caro|||||||&#10;France|Gisèle|Gigi|||||||&#10;France|Fabrice|Fab |||||||&#10;France|Marjorie|Marjo|||||||&#10;France|Marjolène|Marjo|||||||&#10;France|Victor|Vic|||||||&#10;France|Ludovic|Ludo|||||||&#10;France|Virginie|Nini|||||||&#10;France|Joël|Jojo|||||||&#10;France|Corinne|Coco|||||||&#10;France|Florence|Flo|||||||&#10;France|Marc|Marco|||||||&#10;France|Louise|Lou|Louison|Louisa|||||&#10;France|Camille|Cam|||||||&#10;France|Claude|Cloclo|||||||&#10;France|Léopolde|Léo|||||||&#10;France|Léopoldine|Lolo|||||||&#10;France|Viviane|Vivi|Vanie||||||&#10;France|Gabriel|Gabi|||||||&#10;France|Anselme|Anselmet|Anselmier|Anselmoz|Ansermaud|Ansermet|Ansermin||&#10;France|Anselm|Anselmet|Anselmier|Anselmoz|Ansermaud|Ansermet|Ansermin||&#10;France|Yvonne|Vonvonne|||||||&#10;Russe|Aleksandra|Sacha|Sachoulia|Sachoulenka|Sania|Alex|Alya||&#10;Russe|Katia|Katioushka|Katioshka||||||&#10;Russe|Ekatérina|Katya|||||||&#10;Russe|Evgueni|Jénia|||||||&#10;Russe|Evguénia|Jénia|||||||&#10;Russe|Natalia|Natacha|||||||&#10;Russe|Alekseï|Aliocha|||||||&#10;Russe|Аnatoli|Tolia|||||||&#10;Russe|Dmitri|Dima|Mitia||||||&#10;Russe|Levguéni|Jénia|||||||&#10;Russe|Nikolaï|Kolya|||||||&#10;Russe|Vassili|Vassia|||||||&#10;Russe|Vladimir|Volodia|||||||&#10;Russe|Anastassia|Nastia|||||||&#10;Russe|Lekaterina|Katia|||||||&#10;Russe|Léléna|Léna|||||||&#10;Russe|Irina|Ira|||||||&#10;Russe|Ksénia|Xioucha|||||||&#10;Russe|Lubov|Liouba|||||||&#10;Russe|Ludmila|Liouda|||||||&#10;Russe|Nadejda|Nadia|||||||&#10;Russe|Svetlana|Svéta|||||||&#10;Russe|Zinaïda|Zina|||||||&#10;Néerlandais|Christiaan|Chris|||||||&#10;Néerlandais|Christoffel|Chris|||||||&#10;Néerlandais|Nikolaas|Claas|Klaas||||||&#10;Néerlandais|Adolf|Dolf|||||||&#10;Néerlandais|Rudolf|Dolf|||||||&#10;Néerlandais|Eduard|Ed|Eddy||||||&#10;Néerlandais|Hendrik|Henk|Rik||||||&#10;Néerlandais|Hendrikus|Henk|Rik||||||&#10;Néerlandais|Jan|Jantje|||||||&#10;Néerlandais|Gustaaf|Staaf|Staf||||||&#10;Néerlandais|Constantijn|Stijn|||||||&#10;Néerlandais|Thomas|Tom|||||||&#10;Néerlandais|Willem|Willy|||||||&#10;Néerlandais|Ernestina|Erna|Ernie||||||&#10;Néerlandais|Margareta|Greet|Greta||||||&#10;Néerlandais|Reinhilde|Hilda|Hilde||||||&#10;Néerlandais|Eleonora|Noortje|Nora||||||&#10;Néerlandais|Frederika|Rika|||||||&#10;Néerlandais|Sara|Saartje|||||||&#10;Néerlandais|Ernestina|Tina|||||||&#10;Néerlandais|Martina|Tina|||||||&#10;Néerlandais|Geertrui|Trui|||||||&#10;Néerlandais|Geertrui|Truida|||||||&#10;Néerlandais|Geertrui|Truitje|||||||&#10;Espagnol|José|Pepe|Pepito||||||&#10;Espagnol|Dolores|Lola|Lolita||||||&#10;Espagnol|Carlos|Carlitos|||||||&#10;Espagnol|Pilar|Pilarín|Pili||||||&#10;Espagnol|Rosa|Rosita|||||||&#10;Espagnol|Fernando|Nando|||||||&#10;Espagnol|Ignacio|Nacho|||||||&#10;Espagnol|Mercedes|Merche|||||||&#10;Espagnol|José María|Chema|Chemita||||||&#10;Espagnol|Manuel|Manolo|Manolito||||||&#10;Espagnol|Enrique|Quique |Quico||||||&#10;Espagnol|Josefa|Pepa|Pepita||||||&#10;Espagnol|Rosario|Rosarito|||||||&#10;Espagnol|Luisa|Luisita|||||||&#10;Espagnol|Miguel|Miguelito|||||||&#10;Espagnol|Francisco|Paco|Paquito||||||&#10;Espagnol|Carmen|Carmencita|Carmina||||||&#10;Espagnol|Maria de las dolores | Lolita|Lola|Dolores|||||&#10;Grec|Aléxandros|Alékos|Aléxis||||||&#10;Grec|Alkínoos|Álkis|||||||&#10;Grec|Antónios|Nákis|Tónis|Tóny|||||&#10;Grec|Andónios|Nákis|Tónis|Tóny|||||&#10;Grec|Gerásimos|Mákis|||||||&#10;Grec|Yerásimos|Mákis|||||||&#10;Grec|Emmanouél|Manólis|Mános|Manouíl|||||&#10;Grec|Emmanouíl|Manólis|Mános|Manouíl|||||&#10;Grec|Kōnstantínos|Kostákis|Kóstas|Kostίs|Kótsos|Tákis|||&#10;Grec|Konstandínos|Kostákis|Kóstas|Kostίs|Kótsos|Tákis|||&#10;Grec|Nikólaos|Níkos|||||||&#10;Grec|Panagiótis|Giótis|Yiótis|Panayís|Pános|Tákis|||&#10;Grec|Panayiótis|Giótis|Yiótis|Panayís|Pános|Tákis|||&#10;Grec|Sebastianós|Sevastós|Sévos||||||&#10;Grec|Sevastianós|Sevastós|Sévos||||||&#10;Grec|Stéphanos|Stéfos|||||||&#10;Grec|Stéfanos|Stéfos|||||||&#10;Grec|Agorítsa|Rítsa|||||||&#10;Grec|Athanasía|Nánsy|Násia|Sía|Soúla||||&#10;Grec|Aikaterínē|Kaíti|Kéti|Katerína|Katerinió|Kátia|Katígkō|Katígo|Katína&#10;Grec|Ekateríni|Kaíti|Kéti|Katerína|Katerinió|Kátia|Katígkō|Katígo|Katína&#10;Grec|Alexándra|Aléka|||||||&#10;Grec|Antōnía|Ánda|Áda|Tónia|||||&#10;Grec|Andonía|Ánda|Áda|Tónia|||||&#10;Grec|Aphrodítē|Áphrō|||||||&#10;Grec|Afroditi|Áphrō|||||||&#10;Grec|Elénē|Léna|||||||&#10;Grec|Eléni|Léna|||||||&#10;Grec|Euphrosýnē|Phróso|Fróso||||||&#10;Grec|Effrosyni|Phróso|Fróso||||||&#10;Italie|Anselmi|Anselmetto|Anselmetti|Anselmino|Anselmini||||&#10;Italie|Anselmo|Anselmetto|Anselmetti|Anselmino|Anselmini||||&#10;Italie|Lorenzo|Enzo|||||||&#10;Italie|Vincenzo|Enzo|||||||&#10;Italie|Benedetto|Benito|Betto|Bétito|Betti||||&#10;Italie|Uberto|Ubertino|Ubertini||||||&#10;Italie|Uberti|Ubertino|Ubertini||||||&#10;Italie|Margarita|Rita|||||||&#10;Italie|Rosita|Rosa|||||||&#10;Italie|Antonio|Tonio|||||||&#10;Italie|Alessandra|Sandra|||||||"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="6" name="ORIGINE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="14" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="8" name="DIMINUTIF" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="9" name="DIMINUTIF1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="8" name="DIMINUTIF2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="6" name="Column5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="0" name="Column6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="0" name="Column7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="0" name="Column8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="0" name="Column9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_MB65QHJoEeCNAc5XNexS8g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" name="synonyms">
+      <column comment="" key="false" length="140" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="300" name="SURNOMS" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="synonyms" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.PRENOMS " name="PRENOMS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="DqStringHandling.safeConcat('|',row1.DIMINUTIF  ,row1.DIMINUTIF1  ,row1.DIMINUTIF2,  row1.Column5 , row1.Column6  ,row1.Column7,  row1.Column8  ,row1.Column9 )    " name="SURNOMS" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ORIGINE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRENOMS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DIMINUTIF" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DIMINUTIF1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DIMINUTIF2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Column5" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Column6" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Column7" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Column8" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Column9" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tSynonymOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSynonymOutput_1"/>
+    <elementParameter field="CHECK" name="STORE_IN_MEMORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.fname_index"/>
+    <elementParameter field="CLOSED_LIST" name="OPERATION" value="INIT"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="ENTRY" value="PRENOMS"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="SYNONYMS" value="SURNOMS"/>
+    <elementParameter field="TEXT" name="SEPARATOR" value="'|'"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" name="synonyms">
+      <column comment="" key="false" length="140" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="300" name="SURNOMS" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+    <metadata connector="MAIN" name="MAIN">
+      <column comment="" key="false" length="140" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="300" name="SURNOMS" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="status" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="140" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="300" name="SURNOMS" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="error_message" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRENOMS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURNOMS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="error_message"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="rejected_rows"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="140" name="PRENOMS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column comment="" key="false" length="300" name="SURNOMS" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="error_message" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ORIGINE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRENOMS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DIMINUTIF"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DIMINUTIF1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DIMINUTIF2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Column5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Column6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Column7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Column8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Column9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="synonyms" lineStyle="0" metaname="synonyms" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tSynonymOutput_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="PRENOMS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SURNOMS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="synonyms"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="REJECT" label="row2" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" source="tSynonymOutput_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="PRENOMS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SURNOMS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="error_message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <note opaque="true" posX="160" posY="96" sizeHeight="64" sizeWidth="545" text="Initialize an index that contains firstnames and related surnames">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
+    <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
+    <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_CENTER" value="true"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="true"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_BOTTOM" value="false"/>
+    <elementParameter field="TEXT" name="NOTE_FONT" value="Time New Roman"/>
+    <elementParameter field="TEXT" name="FONT_SIZE" value="10"/>
+    <elementParameter field="CHECK" name="FONT_BOLD" value="false"/>
+    <elementParameter field="CHECK" name="FONT_ITALIC" value="false"/>
+    <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_73a4379a-815a-411a-9252-f64995ce8e9d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U2MHJqluf7NbQ4wOMlPEwVnh9+lGm+TwgeVh4LwBDA+XJmZcwtTQAL14gvViBwEY9U0qEZNIlqw0&#13;
+5hNZOqlrcw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_642c4840-f333-41d0-8844-ddbd1663b6db"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+2afcON6lDvarKHZ2FAv5ZvX6QLFvSo3x6cd6UpHGuogy67Og2zd3jVjJMJVmFSp4cUZNlw08mZQ&#13;
+HrFUtESv9Q==</DigestValue></Reference></SignedInfo><SignatureValue>A+BrOYKNCPSE9WQ4URU/oT9du4T8hCC22nUP5SEWP3dc5wOPMh0ZVGOo1jg8+s1x2Q316wkh53hz&#13;
+8ucBIqcAPsIusfNzpZx1SASg7LjJyXqNbEqnlLagaYJiC9qcfMh5NhjHr1ypyhN7MaWg1TQHMZqu&#13;
+WSlm1++678D4YcvPoWgoEJIq7hXmElLRLfWG9VN0adX76BWOFhV+5upTKVlAqIB48Q62JLaif/uR&#13;
+fBv/usLRtTmgDaPtxwq9Bu2M9zIFZIRBvsl8vL1KI3nn35CoyrGMT04TtD4rl26WkQKm4PcxvHrC&#13;
+OBw3OKkQB32bdKORUy52C9rBa2ZJ6c9Q9Rqu1w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_642c4840-f333-41d0-8844-ddbd1663b6db" Target="#_73a4379a-815a-411a-9252-f64995ce8e9d"><Timestamp>2024-07-23 19:04:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

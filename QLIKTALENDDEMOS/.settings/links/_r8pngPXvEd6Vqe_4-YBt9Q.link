@@ -1,0 +1,14 @@
+{
+  "itemId" : "_r8pngPXvEd6Vqe_4-YBt9Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_cvkAoBfNEd-JRsMNcNw12A",
+    "parameterList" : [ {
+      "id" : "_rREUEetBEemV5p5Dpqr24g",
+      "name" : "inputPath"
+    }, {
+      "id" : "_rREUEutBEemV5p5Dpqr24g",
+      "name" : "outputPath"
+    } ]
+  } ]
+}
